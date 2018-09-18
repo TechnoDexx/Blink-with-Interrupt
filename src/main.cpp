@@ -36,9 +36,6 @@ void blink_rising()
   Serial.println(digitalRead(interruptPin));
   //count += 1;
 }
-void blink_falling()
-{
-}
 
 void setup()
 {
