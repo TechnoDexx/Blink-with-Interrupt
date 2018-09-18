@@ -1,4 +1,10 @@
-
+/*
+* This code tested (and worked) with XYC-WB-ВС Moving Sensor
+* For work this sensor connect
+* (+) on sensor - to 5V on Arduino
+* (-) on sensor - to GND on Arduino
+* (Data or Output) on sensor - to digital pin 2 on Arduino
+*/
 #include <Arduino.h>
 
 const byte ledPin = 13;
