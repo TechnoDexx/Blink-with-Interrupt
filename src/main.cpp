@@ -15,7 +15,6 @@ volatile float time = 0;
 
 void blink_rising()
 {
-  // state = !state;
   if (state == LOW)
   {
     state = HIGH;
@@ -40,7 +39,6 @@ void blink_rising()
   Serial.print(time);
   Serial.print(" : ");
   Serial.println(digitalRead(interruptPin));
-  //count += 1;
 }
 
 void setup()
@@ -48,13 +46,10 @@ void setup()
   pinMode(ledPin, OUTPUT);
   pinMode(interruptPin, INPUT_PULLUP);
   attachInterrupt(digitalPinToInterrupt(interruptPin), blink_rising, RISING);
-  //attachInterrupt(digitalPinToInterrupt(interruptPin), blink_falling, FALLING);
   Serial.begin(9600);
-  // count = millis();
 }
 
 void loop()
 {
   digitalWrite(ledPin, state);
-  //count=0;
 }
