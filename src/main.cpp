@@ -10,7 +10,6 @@
 const byte ledPin = 13;
 const byte interruptPin = 2;
 volatile byte state = LOW;
-volatile long count = 0;
 volatile float time = 0;
 
 void blink_rising()
@@ -18,7 +17,6 @@ void blink_rising()
   if (state == LOW)
   {
     state = HIGH;
-    count = count + 1;
   }
   else
   {
