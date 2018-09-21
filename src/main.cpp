@@ -5,6 +5,7 @@
 * (-) on sensor - to GND on Arduino
 * (Data or Output) on sensor - to digital pin 2 on Arduino
 */
+
 #include <Arduino.h>
 
 const byte ledPin = 13;
