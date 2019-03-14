@@ -8,7 +8,7 @@
   "python.linting.enabled": true,
   "python.pythonPath": "C:\\Users\\Owner\\.platformio\\penv\\python.exe",
   "terminal.integrated.env.linux": {
-    "PATH": "/home/itshark/.platformio/penv/bin:/home/itshark/.platformio/penv:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+    "PATH": "/home/itshark/.platformio/penv/bin:/home/itshark/.platformio/penv:/home/itshark/anaconda3/bin:/home/itshark/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-11-oracle/bin:/usr/lib/jvm/java-11-oracle/db/bin:/usr/lib/jvm/java-11-oracle/bin:/usr/lib/jvm/java-11-oracle/db/bin",
     "PLATFORMIO_CALLER": "vscode"
   }
 }
